@@ -1,0 +1,540 @@
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 9 BAM files                                      ||
+||                           o F1_sort.bam                                    ||
+||                           o F3_sort.bam                                    ||
+||                           o F_backup_sort.bam                              ||
+||                           o L1_sort.bam                                    ||
+||                           o L2_sort.bam                                    ||
+||                           o L_backup_sort.bam                              ||
+||                           o SRR20810434_sort.bam                           ||
+||                           o SRR20810435_sort.bam                           ||
+||                           o SRR20810436_sort.bam                           ||
+||                                                                            ||
+||             Output file : FeatureCounts_counts.txt                         ||
+||                 Summary : FeatureCounts_counts.txt.summary                 ||
+||              Annotation : gencode.v44.annotation.gtf (GTF)                 ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v44.annotation.gtf ...                        ||
+||    Features : 1649476                                                      ||
+||    Meta-features : 62700                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file F1_sort.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 45655238                                             ||
+||    Successfully assigned alignments : 24610689 (53.9%)                     ||
+||    Running time : 17.23 minutes                                            ||
+||                                                                            ||
+|| Process BAM file F3_sort.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 43918437                                             ||
+||    Successfully assigned alignments : 23223927 (52.9%)                     ||
+||    Running time : 16.40 minutes                                            ||
+||                                                                            ||
+|| Process BAM file F_backup_sort.bam...                                      ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 45101981                                             ||
+||    Successfully assigned alignments : 24299612 (53.9%)                     ||
+||    Running time : 17.92 minutes                                            ||
+||                                                                            ||
+|| Process BAM file L1_sort.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 41191790                                             ||
+||    Successfully assigned alignments : 22630775 (54.9%)                     ||
+||    Running time : 13.53 minutes                                            ||
+||                                                                            ||
+|| Process BAM file L2_sort.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 37943642                                             ||
+||    Successfully assigned alignments : 20888017 (55.1%)                     ||
+||    Running time : 11.00 minutes                                            ||
+||                                                                            ||
+|| Process BAM file L_backup_sort.bam...                                      ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 38440317                                             ||
+||    Successfully assigned alignments : 20297510 (52.8%)                     ||
+||    Running time : 11.63 minutes                                            ||
+||                                                                            ||
+|| Process BAM file SRR20810434_sort.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 26945029                                             ||
+||    Successfully assigned alignments : 16483600 (61.2%)                     ||
+||    Running time : 1.25 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR20810435_sort.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 26362842                                             ||
+||    Successfully assigned alignments : 16140963 (61.2%)                     ||
+||    Running time : 2.08 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR20810436_sort.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27167774                                             ||
+||    Successfully assigned alignments : 16713079 (61.5%)                     ||
+||    Running time : 2.33 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "FeatureCounts_counts.tx  ||
+|| t.summary"                                                                 ||
+||                                                                            ||
+\\============================================================================//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o SRR20810434_sort.bam                           ||
+||                                                                            ||
+||             Output file : FeatureCounts_SRR20810434_counts.txt             ||
+||                 Summary : FeatureCounts_SRR20810434_counts.txt.summary     ||
+||              Annotation : gencode.v44.annotation.gtf (GTF)                 ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v44.annotation.gtf ...                        ||
+||    Features : 1649476                                                      ||
+||    Meta-features : 62700                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file SRR20810434_sort.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 26945029                                             ||
+||    Successfully assigned alignments : 16483600 (61.2%)                     ||
+||    Running time : 1.56 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "FeatureCounts_SRR208104  ||
+|| 34_counts.txt.summary"                                                     ||
+||                                                                            ||
+\\============================================================================//
+
+
+
+
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o SRR20810435_sort.bam                           ||
+||                                                                            ||
+||             Output file : FeatureCounts_SRR20810435_counts.txt             ||
+||                 Summary : FeatureCounts_SRR20810435_counts.txt.summary     ||
+||              Annotation : gencode.v44.annotation.gtf (GTF)                 ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v44.annotation.gtf ...                        ||
+||    Features : 1649476                                                      ||
+||    Meta-features : 62700                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file SRR20810435_sort.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 26362842                                             ||
+||    Successfully assigned alignments : 16140963 (61.2%)                     ||
+||    Running time : 1.68 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "FeatureCounts_SRR208104  ||
+|| 35_counts.txt.summary"                                                     ||
+||                                                                            ||
+\\============================================================================//
+
+
+
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o SRR20810436_sort.bam                           ||
+||                                                                            ||
+||             Output file : FeatureCounts_SRR20810436_counts.txt             ||
+||                 Summary : FeatureCounts_SRR20810436_counts.txt.summary     ||
+||              Annotation : gencode.v44.annotation.gtf (GTF)                 ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v44.annotation.gtf ...                        ||
+||    Features : 1649476                                                      ||
+||    Meta-features : 62700                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file SRR20810436_sort.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27167774                                             ||
+||    Successfully assigned alignments : 16713079 (61.5%)                     ||
+||    Running time : 2.37 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "FeatureCounts_SRR208104  ||
+|| 36_counts.txt.summary"                                                     ||
+||                                                                            ||
+\\============================================================================//
+
+
+
+
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o F_backup_sort.bam                              ||
+||                                                                            ||
+||             Output file : FeatureCounts_F_backup_counts.txt                ||
+||                 Summary : FeatureCounts_F_backup_counts.txt.summary        ||
+||              Annotation : gencode.v44.annotation.gtf (GTF)                 ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v44.annotation.gtf ...                        ||
+||    Features : 1649476                                                      ||
+||    Meta-features : 62700                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file F_backup_sort.bam...                                      ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 45101981                                             ||
+||    Successfully assigned alignments : 24299612 (53.9%)                     ||
+||    Running time : 15.29 minutes                                            ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "FeatureCounts_F_backup_  ||
+|| counts.txt.summary"                                                        ||
+||                                                                            ||
+\\============================================================================//
+
+
+
+
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o F1_sort.bam                                    ||
+||                                                                            ||
+||             Output file : FeatureCounts_F1_counts.txt                      ||
+||                 Summary : FeatureCounts_F1_counts.txt.summary              ||
+||              Annotation : gencode.v44.annotation.gtf (GTF)                 ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v44.annotation.gtf ...                        ||
+||    Features : 1649476                                                      ||
+||    Meta-features : 62700                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file F1_sort.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 45655238                                             ||
+||    Successfully assigned alignments : 24610689 (53.9%)                     ||
+||    Running time : 16.57 minutes                                            ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "FeatureCounts_F1_counts  ||
+|| .txt.summary"                                                              ||
+||                                                                            ||
+\\============================================================================//
+
+
+
+
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o F3_sort.bam                                    ||
+||                                                                            ||
+||             Output file : FeatureCounts_F3_counts.txt                      ||
+||                 Summary : FeatureCounts_F3_counts.txt.summary              ||
+||              Annotation : gencode.v44.annotation.gtf (GTF)                 ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v44.annotation.gtf ...                        ||
+||    Features : 1649476                                                      ||
+||    Meta-features : 62700                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file F3_sort.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 43918437                                             ||
+||    Successfully assigned alignments : 23223927 (52.9%)                     ||
+||    Running time : 15.15 minutes                                            ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "FeatureCounts_F3_counts  ||
+|| .txt.summary"                                                              ||
+||                                                                            ||
+\\============================================================================//
+
+
+
+
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o L_backup_sort.bam                              ||
+||                                                                            ||
+||             Output file : FeatureCounts_L_bakcup_counts.txt                ||
+||                 Summary : FeatureCounts_L_bakcup_counts.txt.summary        ||
+||              Annotation : gencode.v44.annotation.gtf (GTF)                 ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v44.annotation.gtf ...                        ||
+||    Features : 1649476                                                      ||
+||    Meta-features : 62700                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file L_backup_sort.bam...                                      ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 38440317                                             ||
+||    Successfully assigned alignments : 20297510 (52.8%)                     ||
+||    Running time : 11.33 minutes                                            ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "FeatureCounts_L_bakcup_  ||
+|| counts.txt.summary"                                                        ||
+||                                                                            ||
+\\============================================================================//
+
+
+
+
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o L1_sort.bam                                    ||
+||                                                                            ||
+||             Output file : FeatureCounts_L1_counts.txt                      ||
+||                 Summary : FeatureCounts_L1_counts.txt.summary              ||
+||              Annotation : gencode.v44.annotation.gtf (GTF)                 ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v44.annotation.gtf ...                        ||
+||    Features : 1649476                                                      ||
+||    Meta-features : 62700                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file L1_sort.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 41191790                                             ||
+||    Successfully assigned alignments : 22630775 (54.9%)                     ||
+||    Running time : 12.55 minutes                                            ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "FeatureCounts_L1_counts  ||
+|| .txt.summary"                                                              ||
+||                                                                            ||
+\\============================================================================//
+
+
+
+
+
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o L2_sort.bam                                    ||
+||                                                                            ||
+||             Output file : FeatureCounts_L2_counts.txt                      ||
+||                 Summary : FeatureCounts_L2_counts.txt.summary              ||
+||              Annotation : gencode.v44.annotation.gtf (GTF)                 ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v44.annotation.gtf ...                        ||
+||    Features : 1649476                                                      ||
+||    Meta-features : 62700                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file L2_sort.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 37943642                                             ||
+||    Successfully assigned alignments : 20888017 (55.1%)                     ||
+||    Running time : 11.09 minutes                                            ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "FeatureCounts_L2_counts  ||
+|| .txt.summary"                                                              ||
+||                                                                            ||
+\\============================================================================//
+
+
+
+
