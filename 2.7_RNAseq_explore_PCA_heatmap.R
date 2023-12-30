@@ -1,5 +1,5 @@
+
 ##check featurecounts_summary
-setwd("/Users/shaoboqin_home/Desktop/20231214_forR")
 file_path <- "FeatureCounts_counts.txt.summary"
 featurecounts_summary <- read.delim(file_path, header = TRUE, stringsAsFactors = FALSE)
 str(featurecounts_summary)
