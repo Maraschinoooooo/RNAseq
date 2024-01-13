@@ -187,9 +187,7 @@ library(ggplot2)
 pdf("volcano_plot.pdf", width = 9, height = 10)
 
 ggplot(resdata,aes(x=log2FoldChange,y=-log10(padj))) +
-  ##横向水平参考线，显著性--p值
   geom_hline(yintercept = -log10(0.05),linetype = "dashed",color = "#999999")+
-  ##纵向垂直参考线，差异倍数--foldchange
   geom_vline(xintercept = c(-1 , 1),linetype = "dashed", color = "#999999")+
   
   geom_point(aes(size = -log10(padj),color = -log10(padj)), position = position_jitterdodge(jitter.width = 0.5, dodge.width = 1), alpha = 0.6) +
