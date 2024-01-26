@@ -1,11 +1,8 @@
 ## Installing WGCNA
-install.packages("WGCNA")
-BiocManager::install("GO.db")
-BiocManager::install("impute")
-BiocManager::install("preprocessCore")
-
-
 library(WGCNA)
+library(GO.db)
+library(impute)
+library(preprocessCore)
 library(tidyverse)
 library(magrittr)
 
@@ -28,7 +25,6 @@ dim(countdata.filter)
 
 colnames(countdata.filter) <- c("F1","F2","F3", "L1", "L2", "L3", "V1","V2", "V3")
 head(countdata.filter)
-
 rownames(countdata.filter) <- lapply(rownames(countdata.filter), sub, pattern = "\\.\\d+$", replacement = "")
 head(countdata.filter)
 
